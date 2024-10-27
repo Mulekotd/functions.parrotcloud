@@ -10,7 +10,9 @@ const adminConfig = {
 admin.initializeApp(adminConfig);
 
 // Cloud functions based on roles
+import * as auth from "./auth";
 import * as users from "./users";
 
 // Export functions
+export const onUserCreated = auth.onUserCreated;
 export const onDeleteUserDocument = users.onDeleteUserDocument;

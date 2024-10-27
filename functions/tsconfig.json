@@ -3,10 +3,16 @@
     "target": "es6",
     "module": "commonjs",
     "outDir": "./",
+    "baseUrl": "./",
     "noImplicitAny": true,
     "strictNullChecks": true,
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "paths": {
+      "#utils": [
+        "src/utils"
+      ]
+    }
   },
   "include": [
     "src/**/*.ts"
