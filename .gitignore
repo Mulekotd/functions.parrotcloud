@@ -1,10 +1,6 @@
 # Local Files
 *.local
 
-# Lock Files
-package-lock.json
-yarn.lock
-
 # Firebase Service Account File
 firebaseServiceAccount.json
 
